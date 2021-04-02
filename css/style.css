@@ -1,0 +1,309 @@
+.collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar-logo {
+  padding: 0px 20px;
+}
+
+.navbar-logo img {
+  width: 246px;
+  height: 101.76px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 10px;
+  margin-right: 94px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FA4A0C !important;
+}
+
+.navbar-nav .nav-link.first-active {
+  color: #FA4A0C !important;
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.wrapper .header {
+  background-image: url(../assets/background-food-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+.wrapper .header__text {
+  padding-top: 73px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #F7F7F7;
+}
+
+.wrapper .header__text h6 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.wrapper .header__text h1 {
+  font-size: 58px;
+  line-height: 80px;
+}
+
+.wrapper .header__text h4 {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.wrapper .header__text .btn__wrap {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 54px;
+}
+
+.wrapper .header__text .btn__wrap .btn {
+  color: #F7F7F7;
+  font-size: 24px;
+  line-height: 36px;
+  border-radius: 30px;
+  padding: 15px 60px;
+}
+
+.wrapper .header__text .btn__wrap .btn.playstore {
+  background: #FA4A0C;
+  -webkit-box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+          box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+}
+
+.wrapper .header__text .btn__wrap .btn.playstore:hover {
+  border: 1px solid #FFFFFF;
+}
+
+.wrapper .header__text .btn__wrap .btn.appstore {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+.wrapper .header__text .btn__wrap .btn.appstore:hover {
+  background: #FA4A0C;
+}
+
+.wrapper .header .wrap__image {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+}
+
+.wrapper .header .wrap__image .image__header {
+  background: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding-bottom: 70px;
+  border-bottom: 3px solid #E4E4E4;
+}
+
+.wrapper .header .wrap__image .image__header--food {
+  padding: 0px;
+}
+
+.wrapper .header .wrap__image .image__header--food:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.wrapper .header .wrap__image .image__header--food:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.wrapper .header .wrap__image .image__header--food1 {
+  -webkit-filter: drop-shadow(50px 30px 150px rgba(153, 150, 150, 0.21));
+          filter: drop-shadow(50px 30px 150px rgba(153, 150, 150, 0.21));
+  height: 100%;
+}
+
+.wrapper .header .wrap__image .image__header--food2 {
+  margin-top: 100px;
+  margin-left: 0px;
+  -webkit-filter: drop-shadow(50px 30px 150px rgba(107, 105, 105, 0.21));
+          filter: drop-shadow(50px 30px 150px rgba(107, 105, 105, 0.21));
+}
+
+.wrapper .content .header__detail {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 600px;
+}
+
+.wrapper .content .app__work--text {
+  padding-top: 292px;
+}
+
+.wrapper .content .app__work--text h3 {
+  color: #FA4A0C;
+  padding: 10px 0px;
+}
+
+.wrapper .content .app__work--text h2 {
+  color: #252B42;
+  padding: 10px 0px;
+}
+
+.wrapper .content .app__work--text h4 {
+  font-weight: 500;
+  color: #737373;
+  padding: 10px 0px;
+}
+
+.wrapper .content .app__download {
+  padding-bottom: 126px;
+  background-image: url(../assets/feature-dowload-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.wrapper .content .app__download--contain {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0px;
+  margin: 0px auto;
+}
+
+.wrapper .content .app__download--text {
+  text-align: center;
+  padding-top: 134px;
+  color: #F7F7F7;
+}
+
+.wrapper .content .app__download--text h4 {
+  padding-bottom: 50px;
+}
+
+.wrapper .content .app__download--text .btn__wrap {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .content .app__download--text .btn__wrap .btn {
+  padding: 16px 45px;
+  color: #F7F7F7;
+  border-radius: 10px;
+}
+
+.wrapper .content .app__download--text .btn__wrap .btn.btn__playstore {
+  background: #FA4A0C;
+}
+
+.wrapper .content .app__download--text .btn__wrap .btn.btn__playstore:hover {
+  border: 1px solid #F7F7F7;
+}
+
+.wrapper .content .app__download--text .btn__wrap .btn.btn__appstore {
+  background: transparent;
+  border: 1px solid #F7F7F7;
+}
+
+.wrapper .content .app__download--text .btn__wrap .btn.btn__appstore:hover {
+  background: #FA4A0C;
+}
+
+.wrapper .content .app__footer {
+  padding-top: 38px;
+  padding-bottom: 53px;
+}
+
+.wrapper .content .app__footer .social__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.wrapper .content .app__footer .copywrite {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100% !important;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .header {
+    background: #F7F7F7;
+  }
+  .wrapper .header__text {
+    color: #252B42;
+  }
+  .wrapper .header__text h1 {
+    font-size: 42px;
+    line-height: 42.5px;
+  }
+  .wrapper .header__text p {
+    margin-top: 17.4px;
+  }
+  .wrapper .header__text .btn__wrap .btn.appstore {
+    color: #FA4A0C;
+    margin-top: 20px;
+    border: 1px solid #FA4A0C;
+  }
+  .wrapper .header__text .btn__wrap .btn.appstore:hover {
+    color: #F7F7F7;
+  }
+  .wrapper .content .app__download {
+    background: #252B42;
+  }
+  .wrapper .content .app__work--text {
+    padding-top: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

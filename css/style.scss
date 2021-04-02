@@ -1,0 +1,299 @@
+$mainColor : #FA4A0C;
+$textColor  : #252B42;
+$textColorDetail:#F7F7F7;
+@import 'mixin';
+
+
+.collapse{
+    
+    justify-content: flex-end;
+}
+.navbar-logo{
+   
+    padding: 0px 20px;
+    & img{
+        width: 246px;
+        height: 101.76px;
+    }
+}
+.navbar-nav{
+   
+        & .nav-link{
+            font-size: 16px;
+            line-height: 28px;
+            padding: 10px;
+            margin-right:94px ;
+            &:hover{
+                color:$mainColor !important;
+            }
+        }
+        & .nav-link.first-active{
+            color:$mainColor !important;
+        }
+   
+}
+
+.wrapper{
+overflow: hidden;
+width:100%;
+margin: 0px auto;
+
+.header{
+    
+    background-image: url(../assets/background-food-header.png);
+    @include  BackgroundRepeat() ;
+    padding-bottom: 180px;
+    position: relative;
+
+    &__text{
+        padding-top: 73px;
+        justify-content: center;
+        text-align: center;
+        color: $textColorDetail;
+
+        & h6{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        & h1{
+            font-size: 58px;
+            line-height: 80px;
+        }
+        & h4{
+            font-size: 24px;
+            line-height: 38px;
+        }
+        & .btn__wrap{
+           justify-content: center;
+            margin-top: 54px;
+            & .btn{
+                color:$textColorDetail;
+                font-size: 24px;
+                line-height: 36px;
+                border-radius: 30px;
+                padding: 15px 60px;
+            }
+            
+            & .btn.playstore{
+                background: $mainColor;
+                box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+             &:hover{
+              
+                border: 1px solid #FFFFFF;
+              
+             }
+            }
+             
+            & .btn.appstore{
+                background: transparent;
+                border: 1px solid #FFFFFF;
+                &:hover{
+                    background: $mainColor;
+                }
+                
+            }
+        }
+    }
+   
+       .wrap__image{
+justify-content: center;
+position: absolute;
+       
+    & .image__header{
+      background: transparent;
+      
+       
+        justify-content:center;
+  
+   flex-wrap: nowrap;
+   padding-bottom: 70px;
+   border-bottom: 3px solid #E4E4E4;
+
+       
+        &--food{
+        padding: 0px;
+        &:nth-child(1){
+            display: flex;
+            justify-content: flex-end;
+        }
+        &:nth-child(2){
+            display: flex;
+            justify-content: flex-start;
+        }
+
+                &1{
+                    filter: drop-shadow(50px 30px 150px rgba(153, 150, 150, 0.21));
+                 
+                 height:100%;
+                
+            
+                 
+                }
+                &2{
+                    margin-top: 100px;
+                    margin-left: 0px;
+                    filter: drop-shadow(50px 30px 150px rgba(107, 105, 105, 0.21));
+                 
+                   
+                }
+               
+            
+        }
+       
+    }
+        
+       
+    }
+}
+
+
+.content{
+    .header__detail{
+        justify-content: center;
+        margin-top: 600px;
+        }
+
+        & .app__work{
+
+            &--text{
+                padding-top: 292px;
+                & h3{
+                    color:$mainColor;
+                    @include  paddingStyle();
+                }
+                & h2{
+                    color:$textColor;
+                    @include  paddingStyle();
+                }
+                & h4{
+                    font-weight: 500;
+                   color:#737373;
+                   @include  paddingStyle();
+                }
+            }
+        }
+
+        & .app__download{
+            padding-bottom: 126px;
+            background-image: url(../assets/feature-dowload-bg.png);
+            
+            // background-image: url(../assets/feature-dowload-bg.png);
+            @include BackgroundRepeat();
+            position: relative;
+            
+            &--contain{
+              
+                justify-content: center;
+                top:0px;
+                margin: 0px auto;
+            }
+
+            &--text{
+                text-align: center;
+              padding-top: 134px;
+              color:$textColorDetail;
+
+              & h4{
+                  padding-bottom: 50px;
+              }
+              & .btn__wrap{
+                  justify-content: center;
+                  & .btn{
+                      padding:16px 45px;
+                      color:$textColorDetail;
+                      border-radius: 10px;
+
+                  }
+                  & .btn.btn__playstore{
+                    background: $mainColor;
+                    &:hover{
+                        border: 1px solid $textColorDetail;
+                    }
+                  }
+                  & .btn.btn__appstore{
+                      background: transparent;
+                      border: 1px solid $textColorDetail;
+                      &:hover{
+                        background: $mainColor;
+                      }
+                }
+              }
+            }
+        }
+        & .app__footer{
+            padding-top: 38px;
+           padding-bottom: 53px;
+            & .social__icon{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+                padding-top: 20px;
+            }
+            & .copywrite{
+                justify-content:center ;
+                display: flex;
+                padding-top: 20px;
+            }
+        }
+}
+
+}
+
+
+@media screen and(min-width:1024px){
+    .wrapper{
+        max-width: 1440px;
+    }
+}
+
+@media screen and(max-width:600px){
+    .container{
+        width:100% !important;
+       
+    }
+    .wrapper{
+width:100%;
+        & .header{
+            background: $textColorDetail;
+           
+            &__text{
+
+                & h1{
+                    font-size: 42px;
+                    line-height: 42.5px;
+             
+                }
+                & p {
+                    margin-top: 17.4px;
+                }
+
+                color:$textColor;
+                & .btn__wrap{
+
+                    & .btn.appstore{
+                        color:$mainColor;
+                        margin-top: 20px;
+                        border: 1px solid $mainColor;
+                        &:hover{
+                            color:$textColorDetail;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        & .content {
+
+        .app__download{
+            background: $textColor;
+        }
+        .app__work{
+            &--text{
+              padding-top: 0px;
+            }
+        }
+    }
+    }
+}
