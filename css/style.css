@@ -338,14 +338,20 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .wrapper .content .app__work--image img {
-    margin-left: 100px;
-  }
   .wrapper .content .app__work--text {
     padding-top: 0px;
   }
   .wrapper .content .app__work--text--detail {
     text-align: center;
+  }
+  .wrapper .content .app__checkout--flow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .wrapper .content .app__download .btn__wrap .btn__appstore {
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
