@@ -314,7 +314,7 @@
   .wrapper .content .header__detail {
     padding: 40px 0px;
     border-bottom: 3px solid #E4E4E4;
-    margin-top: 600px;
+    margin-top: 400px;
   }
   .wrapper .content .header__detail h1 {
     font-size: 32px;
@@ -337,6 +337,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .wrapper .content .app__work--image img {
+    margin-left: 50px;
   }
   .wrapper .content .app__work--text {
     padding-top: 0px;
