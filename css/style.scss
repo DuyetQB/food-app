@@ -259,14 +259,43 @@ right:0;
         max-width: 1440px;
     }
 }
-@media screen and(min-width:768px){
+@media screen and(min-width:768px)and(max-width:1192px){
     .wrapper{
        
+        .header__text{
+
+            & .btn__wrap {
+                & .btn{
+                    padding: 10px 20px;
+                }
+            }
+        }
+
+        .content {
+
+        & .app__download--text{
+         & .btn__wrap{
+
+          & .btn{
+              padding:10px 20px;
+
+          }
+         }
+        }
+
+        }
     }
 }
 
 
-@media screen and(max-width:600px){
+@media screen and(max-width:770px){
+    .navbar-logo {
+    
+    img {
+        width: 104px;
+        height: 51px;
+    }
+}
     .container{
         width:100% !important;
        
@@ -366,6 +395,13 @@ width:100%;
                 & .btn__appstore{
                     margin-top: 20px;
                 }
+            }
+        }
+
+        & .app__footer{
+
+            & .logo{
+                display: none;
             }
         }
     }
