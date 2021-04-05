@@ -106,6 +106,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .wrapper .header .wrap__image .image__header {
@@ -145,6 +147,7 @@
   -webkit-filter: drop-shadow(50px 30px 150px rgba(153, 150, 150, 0.21));
           filter: drop-shadow(50px 30px 150px rgba(153, 150, 150, 0.21));
   height: 100%;
+  width: 100%;
 }
 
 .wrapper .header .wrap__image .image__header--food2 {
@@ -152,13 +155,18 @@
   margin-left: 0px;
   -webkit-filter: drop-shadow(50px 30px 150px rgba(107, 105, 105, 0.21));
           filter: drop-shadow(50px 30px 150px rgba(107, 105, 105, 0.21));
+  width: 100%;
 }
 
 .wrapper .content .header__detail {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 600px;
+  margin-top: 800px;
+}
+
+.wrapper .content .app__work--image img {
+  width: 100%;
 }
 
 .wrapper .content .app__work--text {
@@ -299,11 +307,45 @@
   .wrapper .header__text .btn__wrap .btn.appstore:hover {
     color: #F7F7F7;
   }
+  .wrapper .header .wrap__image .image__header {
+    padding-bottom: 60px;
+    border-bottom: none;
+  }
+  .wrapper .content .header__detail {
+    padding: 40px 0px;
+    border-bottom: 3px solid #E4E4E4;
+    margin-top: 600px;
+  }
+  .wrapper .content .header__detail h1 {
+    font-size: 32px;
+  }
   .wrapper .content .app__download {
     background: #252B42;
   }
+  .wrapper .content .app__work .app__work--flow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 65px;
+  }
+  .wrapper .content .app__work--image {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper .content .app__work--image img {
+    margin-left: 100px;
+  }
   .wrapper .content .app__work--text {
     padding-top: 0px;
+  }
+  .wrapper .content .app__work--text--detail {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
